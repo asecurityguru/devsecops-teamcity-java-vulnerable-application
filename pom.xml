@@ -65,8 +65,7 @@
 		    <version>0.10.5</version>
 		    <scope>runtime</scope>
 		</dependency>
-<!--#Change 1 for SAST - Changes for Unit Test Coverage Percentage Update on SonarCloud Dashboard
-#By ASecurityGuru
+<!--#Change 1 for SAST - Changes for Unit Test Coverage Percentage Update on SonarCloud Dashboard #By A Security Guru
 #Default Location of CodeCoverage File is target/site/jacoco/jacoco.xml,target/site/jacoco-it/jacoco.xml,build/reports/jacoco/test/jacocoTestReport.xml
 -->
         <dependency>
@@ -75,17 +74,16 @@
 				<version>4.12</version>
 				<scope>test</scope>
 		</dependency>		
-		
-		
+
 	</dependencies>
 
 	<build>
 		<plugins>
 			
-<!--#Change 2 for SAST - Added Jacoco Plugin - Changes for Unit Test Coverage Percentage Update on SonarCloud Dashboard
-#By ASecurityGuru
+<!--#Change 2 for SAST - Added Jacoco Plugin - Changes for Unit Test Coverage Percentage Update on SonarCloud Dashboard #By A Security Guru
 #Default Location of CodeCoverage File is target/site/jacoco/jacoco.xml,target/site/jacoco-it/jacoco.xml,build/reports/jacoco/test/jacocoTestReport.xml
--->		<plugin>
+-->		
+		<plugin>
 			<groupId>org.jacoco</groupId>
 			<artifactId>jacoco-maven-plugin</artifactId>
 			<version>0.8.7</version>
